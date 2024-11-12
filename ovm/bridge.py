@@ -2,8 +2,9 @@ from typing import Any, Iterable
 import eth_abi
 from eth_typing import TypeStr
 import grpc
-import bridge_pb2
-import bridge_pb2_grpc
+
+from . import bridge_pb2
+from . import bridge_pb2_grpc
 
 
 class Bridge:

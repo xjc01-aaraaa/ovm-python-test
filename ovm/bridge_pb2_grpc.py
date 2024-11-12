@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-import bridge_pb2 as api_dot_v1_dot_ovm_dot_bridge__pb2
+from . import bridge_pb2 as api_dot_v1_dot_ovm_dot_bridge__pb2
 
 
 class BridgeStub(object):

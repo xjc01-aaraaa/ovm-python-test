@@ -1,1 +1,3 @@
-import bridge
+__all__ = ["Bridge"]
+
+from .bridge import Bridge
