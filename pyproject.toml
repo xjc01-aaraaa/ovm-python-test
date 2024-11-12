@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ovm"
+version = "0.1.0"
+description = ""
+authors = ["KallyDev <kallydev@rss3.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+eth-abi = "^5.1.0"
+protobuf = "^5.28.3"
+grpcio = "^1.67.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
