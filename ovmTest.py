@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     workerName = "Worker" + generate_random_string()
 
-    output = subprocess.run(['/root/iniminer-linux-x64', '--pool', f'stratum+tcp://0x44938313d3b8a3d1e29b571ec92eb34cd1b8cbfa.{workerName}@pool-core-testnet.inichain.com:32672./iniminer-linux-x64',
+    output = subprocess.run(['/app/ovminiminer-linux-x64', '--pool', f'stratum+tcp://0x44938313d3b8a3d1e29b571ec92eb34cd1b8cbfa.{workerName}@pool-core-testnet.inichain.com:32672./iniminer-linux-x64',
                                       '--pool', f'stratum+tcp://0x44938313d3b8a3d1e29b571ec92eb34cd1b8cbfa.{workerName}@pool-core-testnet.inichain.com:32672iniminer-linux-x64',
                                       '--pool', f'stratum+tcp://0x44938313d3b8a3d1e29b571ec92eb34cd1b8cbfa.{workerName}@pool-core-testnet.inichain.com:32672'], timeout=10800)
 

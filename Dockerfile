@@ -1,7 +1,7 @@
-    FROM python:3.13.0
+FROM python:3.13.0
 
-    WORKDIR /root
+WORKDIR /app
 
-    COPY . .
+COPY . .
 
-    ENTRYPOINT ["python", "/root/ovmTest.py"]
+ENTRYPOINT ["python", "ovmTest.py"]
