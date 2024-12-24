@@ -6,7 +6,7 @@ authors = ["KallyDev <kallydev@rss3.io>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.13"
+python = "^3.10"
 eth-abi = "^5.1.0"
 protobuf = "^5.28.3"
 grpcio = "^1.67.1"
